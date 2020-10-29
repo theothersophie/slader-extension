@@ -1,0 +1,24 @@
+{
+  "name": "slader bypass",
+  "version": "0.1",
+  "author":"Alan Li",
+  "description": "slader 5 solutions limit bypass",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.slader.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+        "matches": ["*://*.slader.com/textbook/*"],
+        "js": ["js/content_script.js"]
+    }
+],
+  "manifest_version": 2
+  }
