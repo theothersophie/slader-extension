@@ -19,9 +19,10 @@
 
 # Usage
 
-
-擴充功能->開發人員選項->載入未封裝套件->選擇"slader-bypass"資料夾
+擴充功能->開發人員選項->載入未封裝套件->選擇**"slader-bypass"**資料夾
 
 
 # Warning
 
+Commercial using is not encouraged.
+Upgrade your slader's account if you can afford :)
