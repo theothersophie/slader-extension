@@ -19,8 +19,21 @@
 
 # Usage
 
+1. Download slader-extension zip and unzip or use
+
+		git clone https://github.com/lebr0nli/slader-extension.git
+
 擴充功能->開發人員選項->載入未封裝套件->選擇**"slader-bypass"**資料夾
 
+2. Open chrome://extensions in a new tab.
+
+3. Enable "Developer mode" at the top-right.
+
+4. Click the "Load unpacked" button that just appeared.
+
+5. Select the folder **slader-bypass** in **slader-extension**
+
+6. Enjoy!
 
 # Warning
 
