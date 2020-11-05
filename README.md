@@ -19,7 +19,9 @@
 
 # Usage
 
-1. Download slader-extension zip and unzip or use
+1. Download slader-extension zip and unzip 
+
+or use
 
 		git clone https://github.com/lebr0nli/slader-extension.git
 
@@ -29,7 +31,7 @@
 
 4. Click the "Load unpacked" button that just appeared.
 
-5. Select the folder **slader-bypass** in **slader-extension-main**
+5. Select the folder **slader-bypass** in **slader-extension-main** or **slader-extension**
 
 6. Enjoy!
 
