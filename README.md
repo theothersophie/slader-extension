@@ -23,7 +23,7 @@
 
 or use
 
-		git clone https://github.com/lebr0nli/slader-extension.git
+	git clone https://github.com/lebr0nli/slader-extension.git
 
 2. Open chrome://extensions in a new tab.
 
