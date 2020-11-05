@@ -19,7 +19,7 @@
 
 # Usage
 
-1. Download slader-extension zip and unzip 
+1. Download slader-extension.zip then unzip 
 
 or use
 
@@ -37,5 +37,8 @@ or use
 
 # Warning
 
+Educational using only.
+
 Commercial using is not encouraged.
+
 Upgrade your slader's account if you can afford :)
