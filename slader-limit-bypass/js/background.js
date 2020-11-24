@@ -1,4 +1,4 @@
-chrome.webRequest.onBeforeSendHeaders.addListener(function(details) {
+browser.webRequest.onBeforeSendHeaders.addListener(function(details) {
     
   var newxff = (Math.floor((Math.random()*100000000))).toString();
   var gotxff = false;
@@ -18,11 +18,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(function(details) {
     urls: ['*://*.slader.com/*']
 }, ['blocking', 'requestHeaders']);
 
-
-
-
-
-chrome.webRequest.onSendHeaders.addListener(function(details) {
+browser.webRequest.onSendHeaders.addListener(function(details) {
     console.log(details.requestHeaders);
     return { requestHeaders: details.requestHeaders };
 }, {urls: ['*://*.slader.com/textbook/*']},
